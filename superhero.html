@@ -5,12 +5,30 @@
         <title>Superheroes</title>
 
         <style>
-            h1
-            {
+            body {
+                background-color: rgb(255, 255, 177);
+            }
+            h1 {
                 color: chartreuse;
             }
+            th {
+                color: blueviolet;
+                background-color: gray;
+                font-size: 18px;
+            }
+            td, th {
+                border: 2px solid black;
+                padding: 15px;
+                background-color: orange;
+            }
+            table {
+                border-collapse: collapse;
+            }
+            img {
+                height: 100px;
+            }
         </style>
-        </Head>
+    </head>
         <body>
             <h1>My Favorite Superheroes</h1>
             <Table>
@@ -23,33 +41,85 @@
                         <th style="color:red;">Weaknesses</th>
                     </tr>
                 </thead>
-            </Table>
-        </body>
+         </body>
             <tr>
                 <th>Hulk</th>
                 <td>Bruce Banner</td>
                 <td><img src="images/hulk.jpg" alt="Incredible Hulk"></td>
-                <td>Superpowers</td>
-                <td>Weaknesses</td>
+                <td>
+            
+                    <ul>
+                        <li>Super Strength</li>
+                        <li>Regenerative Healing</li>
+                    </ul>
+                </td>
+            
+                
+                <td>
+                    <ul>
+                        <li>Wolverines Adamantium Claws</li>
+                        <li>Emotional Attchment</li>
+                        <li>Iron Man's Helios Lazer</li>
+                    </ul>
+                </td>
             </tr>
             <tr>
                 <th>Ironman</th>
                 <td>Tony Stark</td>
                 <td><img src="images/Ironman.jpg" alt="Tony Stark"></td>
-                <td>Superpowers</td>
-                <td>Weaknesses</td>
+                <td>
+                    <ul>
+                        <li>Flight</li>
+                        <li>Billionare</li>
+                        <li>Technology</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Ego</li>
+                        <li>Dependance on Technology</li>
+                    </ul>
+                </td>
             </tr>
             <tr>
                 <th>superman</th>
                 <td>Clark Kent</td>
                 <td><img src="images/superman.jpg" alt="Clark Kent"></td>
-                <td></td>
-                <td></td>
+                <td>
+                    <ul>
+                        <li>Superstrenth</li>
+                        <li>X-ray Vision</li>   
+                        <li>Superhuman Vision</li>                 
+                    </ul>
+                </td>
+                
+                <td>
+                    <ul>
+                        <li>Nukes</li>
+                        <li>Lead</li>
+                        <li>Virus X</li>
+                                       
+                    </ul>
+                </td>
             </tr>
             <tr>
                 <th>Spiderman</th>
                 <td>Peter Parker</td>
                 <td><img src="images/spiderman" alt="Peter Parker"></td>
-                <td></td>
-                <td></td>
+                
+                <td>
+                    <ul>
+                        <li>Superhuman Agility</li>
+                        <li>Spider Reflexes</li>
+                    </ul>
+                </td>
+                
+                <td>
+                    <ul>
+                        <li>Life Balance</li>
+                        <li>Humanity</li>
+                        <li>Anti-Venom</li>
+                    </ul>
+                </td>
             </tr>
+        </Table>
