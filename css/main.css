@@ -1,11 +1,14 @@
 body {
-    background-color: #DDD0C8; 
+    background-color: #e0f7fa; 
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: auto;
   }
   
   
   img {
     width: 100%;
-    border-radius: 8px;
+    border-radius: 10px;
     opacity: 0.9;
   }
   
@@ -27,3 +30,17 @@ body {
   a {
     color: hsl(200, 80%, 40%); 
   }
+li:hover {
+  text-decoration: underline;
+  color:#F6B000 ;
+}
+nav{
+  background-color: khaki;
+  padding: auto;
+}
+footer {
+background-color: #004d40;
+color: azure;
+text-align: center;
+padding: 10px;
+}
