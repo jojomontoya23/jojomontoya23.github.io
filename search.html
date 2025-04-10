@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Black Ops II - Advanced Search</title>
+  <title>Black Ops II Advanced Search</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -16,7 +16,7 @@
     }
     legend {
       font-weight: bold;
-      color: #fff;
+      color: rgb(255, 255, 255);
     }
     label, p {
       display: block;
@@ -41,35 +41,30 @@
   </style>
 </head>
 <body>
-  <h1>Black Ops II - Advanced Google Search</h1>
-  <form action="https://www.google.com/search" method="GET">
+  <h1>Black Ops II Advanced Google Search</h1>
+  <form action="https://www.google.com/search" method="get"> 
     <fieldset>
       <legend>Search Black Ops II Content</legend>
 
-      <!-- Text Box for main search -->
       <label for="query">Search Call of Duty: Black Ops II:</label>
-      <input type="text" id="query" name="q" placeholder="e.g., zombies guide, campaign walkthrough"><br>
+      <input type="text" id="site" name="q" placeholder="e.g., zombies guide, campaign walkthrough"><br>
 
-      <!-- Exact phrase -->
       <label for="exact">Exact Phrase:</label>
-      <input type="text" id="exact" name="as_epq" placeholder="e.g., Mob of the Dead"><br>
+      <input type="text" id="exact" name="q" placeholder="e.g., Mob of the Dead"><br>
 
-      <!-- Dropdown for file type -->
       <label for="filetype">File Type:</label>
       <select name="as_filetype" id="filetype">
         <option value="">Any</option>
-        <option value="pdf">PDF (e.g., manuals)</option>
+        <option value="pdf">PDF </option>
         <option value="doc">DOC</option>
       </select><br>
 
-      <!-- Radio for where keywords appear -->
       <p>Keyword Location:</p>
       <input type="radio" id="title" name="as_occt" value="title">
       <label for="title">In the page title</label><br>
       <input type="radio" id="url" name="as_occt" value="url">
       <label for="url">In the page URL</label><br>
 
-      <!-- Checkbox for limiting to specific sites -->
       <p>Only search trusted BO2 sources:</p>
       <input type="checkbox" id="site1" name="q" value="site:reddit.com/r/blackops2">
       <label for="site1">Reddit (r/blackops2)</label><br>
