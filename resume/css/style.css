@@ -10,29 +10,28 @@
     --Text-Dark: #2a2a2a;
   }
   
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--Dark-Navy);
+    text-align: center;
+  }
+  
   body {
     background-color: var(--Soft-Gray);
     font-family: 'Tech', sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  * {
-    color: var(--Dark-Navy);
-    text-align: center;
-    box-sizing: border-box;
+    padding: 2vh 5vw;
   }
   
   h1 {
     font-size: calc(16pt + 6vw);
-    font-family: 'Tech';
-    margin-top: 1rem;
+    margin-top: 2vh;
     color: var(--Dark-Navy);
   }
   
   h2 {
-    font-size: 28pt;
-    font-family: 'Tech';
+    font-size: 6vw;
     margin: 1.5rem 0 1rem 0;
     color: var(--Accent-Blue);
   }
@@ -40,7 +39,7 @@
   nav {
     font-family: 'Tech';
     font-size: 1.2rem;
-    margin-bottom: 1rem;
+    margin: 2vh 0;
   }
   
   nav ul {
@@ -48,15 +47,15 @@
     padding: 0;
     display: flex;
     justify-content: center;
-    gap: 2rem;
     flex-wrap: wrap;
-    margin: 0;
+    gap: 1.5rem;
   }
   
   nav ul li a {
     text-decoration: none;
     font-weight: bold;
     color: var(--Dark-Navy);
+    font-size: 5vw;
   }
   
   nav ul li a:hover {
@@ -65,7 +64,7 @@
   
   #top {
     border: 10px solid var(--Accent-Blue);
-    margin: 5px 8vw;
+    margin: 5px 5vw;
     padding: 1rem;
     background-color: #ffffff;
     border-radius: 8px;
@@ -73,7 +72,7 @@
   
   section {
     border: 4px solid var(--Dark-Navy);
-    margin: 20px 10vw;
+    margin: 20px 5vw;
     padding: 1.2rem;
     background-color: #ffffff;
     border-radius: 10px;
@@ -92,5 +91,36 @@
     list-style: none;
     padding-left: 0;
     margin-top: 0.5rem;
+  }
+  
+  img {
+    max-width: 90%;
+    height: auto;
+    margin-top: 2vh;
+    border-radius: 8px;
+  }
+  
+  footer {
+    margin-top: 5vh;
+    font-size: 4vw;
+    color: var(--Text-Dark);
+  }
+  
+  @media (min-width: 768px) {
+    nav ul li a {
+      font-size: 1.5vw;
+    }
+  
+    h1 {
+      font-size: 4vw;
+    }
+  
+    h2 {
+      font-size: 3vw;
+    }
+  
+    p, li {
+      font-size: 2vw;
+    }
   }
   
