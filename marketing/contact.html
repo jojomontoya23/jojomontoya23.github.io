@@ -1,1 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us | Chick-fil-A</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html"><img src="images/logo.png" alt="Chick-fil-A Logo" class="logo" /></a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <main>
+    <section class="hero">
+      <h1>Contact Us</h1>
+    </section>
+
+    <section class="contact-info">
+      <h2>Chick-fil-A – Greeley, CO</h2>
+      <p><strong>Address:</strong> 4555 Centerplace Dr, Greeley, CO 80634</p>
+      <p><strong>Phone:</strong> <a href="tel:9703304421">(970) 330-4421</a></p>
+      <p><strong>Hours:</strong> Monday–Saturday: 6:30 AM – 9:00 PM<br>Sunday: Closed</p>
+      <p><strong>Operator:</strong> Ken Rotramel</p>
+      <p><a href="https://www.chick-fil-a.com/locations/co/greeley" target="_blank">Visit Official Website</a></p>
+    </section>
+
+    <section class="contact-form">
+      <h2>Send Us a Message</h2>
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Your message..." rows="5" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <section class="map">
+      <h2>Find Us</h2>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3067.654654654654!2d-104.7691234!3d40.4071234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876e0d1234567890%3A0x1234567890abcdef!2sChick-fil-A%20Greeley!5e0!3m2!1sen!2sus!4v1610000000000"
+        width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Chick-fil-A (Student Project)</p>
+  </footer>
+</body>
+</html>
