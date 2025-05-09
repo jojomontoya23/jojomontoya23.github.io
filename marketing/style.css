@@ -141,3 +141,13 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+#logo {
+  max-width: 100px;
+  height: auto;
+}
+.card img {
+  max-width: 25%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
